@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+	This controller allows to connect to a remote Intermec reader through its 
+	BRI interface.
+-->
+
+<properties>
+	
+	<!-- BRI network properties of the intermec reader-->
+	<host>localhost</host>
+	<port>2189</port>
+	
+	<!-- Network timeout in miliseconds  -->
+	<timeout>2000</timeout>
+
+	<!-- Configuration file with the transponder model configuration -->
+	<epcTransponderModelsConfig>/props/EPCTransponderModels_default.xml</epcTransponderModelsConfig>
+
+	<!-- The IdTypes configuration file -->
+	<idTypesConfig>/props/IDTypes_default.xml</idTypesConfig>
+	
+	
+	<!-- Logical sources and the antennas associated to it. In the case of a 
+		reader with multiple antennas, 'antennas' could be a comma separated list -->
+	<logicalSource>
+		<name>LogicalSource1</name>
+		<antennas>1,2,3,4</antennas>
+	</logicalSource>
+	
+</properties>
