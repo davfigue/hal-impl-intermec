@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
 /**
  * Simple TCP connector for Intermec's BRI
  * 
- * @author David Figueroa Escalante
+ * @author David Figueroa
  */
 public class TCPBRISocketConnector {
 

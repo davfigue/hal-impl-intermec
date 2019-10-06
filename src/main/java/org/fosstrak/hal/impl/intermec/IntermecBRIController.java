@@ -34,7 +34,7 @@ import org.fosstrak.hal.transponder.TransponderType;
 import org.fosstrak.hal.util.ResourceLocator;
 
 /**
- * @author "David Figueroa Escalante"
+ * @author "David Figueroa"
  * 
  */
 public class IntermecBRIController implements IntermecController {
